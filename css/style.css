@@ -27,6 +27,7 @@ body {
 /* ===============================
    HERO
 =============================== */
+
 #hero-2274{
   position: relative;
   min-height: 140vh;
@@ -35,7 +36,7 @@ body {
   
   padding: 4rem 1rem;
 
-  background-image: url("../images/big/back1.png");
+  background-image: url("./images/back1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +81,7 @@ body {
   align-items: center;
   padding: 6rem 1rem;
 
-  background-image: url("../images/big/back1.png");
+  background-image: url("../images/back1.png");
   background-size: contain;      
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +103,6 @@ body {
     background-position: 75% center;
   }
 }
-
 
 /* ===============================
    SERVICES
@@ -210,7 +210,7 @@ body {
   position: absolute;
   height: 100%;
   width: 0%;
-  background: hsl(0, 0%, 99%);;
+  background: #c68357;
   opacity: 1;
   top: 0;
   left: 0;
@@ -261,7 +261,7 @@ body {
   display: none;
 }
 #Hservices-2274 {
-  background-color: #fff6e2; 
+  background-color: #fff6E2; 
 }
 
 #Hservices-2274 .cs-card-group {
@@ -1102,7 +1102,7 @@ body {
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #fff6e2
+    background: #c68357
     ;
     opacity: 1;
     top: 0;
@@ -1264,7 +1264,7 @@ body {
   #hero-2274 .hero-nav{ display:none; } 
 }
 #hero-2274{
-  background-image: url("../images/big/back1.png");
+  background-image: url("../images/back1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;   
@@ -1413,7 +1413,7 @@ body {
         font-weight: 700;
         text-align: center;
         margin: 0;
-        color: #fff;
+        color: #ffffff;
         min-width: 9.375rem;
         padding: 0 2rem;
         overflow: hidden;
@@ -1429,7 +1429,8 @@ body {
         position: absolute;
         height: 100%;
         width: 0%;
-        background: #000;
+        background: #c68357
+;
         opacity: 1;
         top: 0;
         left: 0;
@@ -1697,7 +1698,7 @@ body {
         align-items: flex-start;
         flex-wrap: wrap;
         column-gap: 5.5rem;
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
     #cs-footer-274 .cs-logo-group {
         /* takes up all the space, lets the other ul's wrap below it */
@@ -1706,7 +1707,7 @@ body {
     }
     #cs-footer-274 .cs-logo-group {
         /* 44px - 52px */
-        margin-bottom: clamp(2.75rem, 6.8vw, 3.25rem);
+        margin-bottom: clamp(1.75rem, 6.8vw, 3.25rem);
     }
     #cs-footer-274 .cs-logo {
         /* 210px - 240px */
@@ -1835,7 +1836,7 @@ body {
 
 #hero-2274{
   min-height: 100vh;
-  background-image: url("../images/big/back1.png");
+  background-image: url("../images/back1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1844,7 +1845,7 @@ body {
 
 #hero-2274 .cs-title {
   font-size: clamp(2.8rem, 5vw, 4.5rem);
-  line-height: 1.1;
+  line-height: 1;
   font-weight: 800;
   color: #744322;
 }
@@ -1896,7 +1897,7 @@ body {
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     background-color: #744322;
-    border: 2px solid #fff6e2;
+    border: 2px solid #c68357;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -1909,7 +1910,7 @@ body {
     content: "";
     width: 0.375rem;
     height: 100%;
-    background: #fff6e2;
+    background: #c68357;
     opacity: 1;
     position: absolute;
     display: block;
@@ -1926,13 +1927,13 @@ body {
     transition: fill 0.3s;
 }
 .cs-button-6:hover {
-    color: #fff;
+    color: #c68357;
 }
 .cs-button-6:hover:before {
     width: 100%;
 }
 .cs-button-6:hover .cs-icon path {
-    fill: #fff;
+    fill: #ffffff;
 }
 
                                 
@@ -1968,9 +1969,150 @@ body {
 
 
 
-.swiper-wrapper,
-.splide__list,
-.glide__slides,
-.slider-track{
-  justify-content: flex-start !important;
+#cs-navigation{
+  background: #fff;
+  border-bottom: 1px solid #f3e6d6; 
+}
+
+
+#cs-navigation .nav-bar{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cs-navigation .logo img{
+  height: 52px;
+  width: auto;
+  display: block;
+}
+
+
+#cs-navigation .menu{
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+
+#cs-navigation .menu a{
+  color: #1f1f1f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+#cs-navigation .menu a.active{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
+
+.search-bar{
+  background: #f8efdf;  
+  padding: 22px 0;
+}
+.search-bar .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+#cs-navigation .cs-container{
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;
+  padding: 0px 0px;        
+}
+
+#cs-navigation .cs-logo{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#cs-navigation .cs-logo img{
+  height: 48px;    
+  width: auto;
+  display: block;
+}
+#cs-navigation .cs-ul{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+#cs-navigation{
+  padding: 0;       
+  margin: 0;
+}
+
+#cs-navigation .cs-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+
+#cs-navigation{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:80px;
+  padding:0 32px;
+}
+
+#cs-navigation .cs-logo img{
+  height:48px;
+  display:block;
+}
+
+#cs-navigation ul{
+  display:flex;
+  align-items:center;
+  margin:0;
+  padding:0;
+}
+
+#cs-navigation a{
+  line-height:1;
+  padding:0;
+}
+
+
+#gallery-1152 .cs-product-name{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+#gallery-1152 .cs-product-price{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+#Hservices-2274 .cs-item {
+  border-radius: 0;
+}
+#Hservices-2274 .cs-link img {
+  border-radius: 0;
+}
+
+
+.footer-column {
+  margin-top: 22px;
+}
+
+
+.footer-right {
+  margin-top: 40px;
 }

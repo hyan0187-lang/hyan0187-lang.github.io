@@ -5,67 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cake Website</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 
 <body>
     <!-- ============================================ -->
 <!--                 Navigation                   -->
 <!-- ============================================ -->
-
 <header id="cs-navigation" class="cc-nav">
   <div class="cs-container cc-nav__row">
-        <!--Nav Logo-->
-        <a href="" class="cs-logo" aria-label="back to home">
-             <img src="./images/big/logo.png" alt="Cupcake Central" />
-        </a>
-        <!--Navigation List-->
-        <nav class="cs-nav" role="navigation">
-            <!--Mobile Nav Toggle-->
-            <button class="cs-toggle" aria-label="mobile menu toggle">
-                <div class="cs-box" aria-hidden="true">
-                    <span class="cs-line cs-line1" aria-hidden="true"></span>
-                    <span class="cs-line cs-line2" aria-hidden="true"></span>
-                    <span class="cs-line cs-line3" aria-hidden="true"></span>
-                </div>
-            </button>
-            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
-            <div class="cs-ul-wrapper">
-                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link cs-active">
-                            Home
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            Our products
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            Services
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            FAQ
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-            </div>
+        
+    <!--Nav Logo-->
+    <a href="" class="cs-logo" aria-label="back to home">
+      <img src="./images/logo.png" alt="Cupcake Central">
+    </a>
+
+    <!--Navigation List-->
+    <nav class="cs-nav">
+
+      <!--Mobile Nav Toggle-->
+      <button class="cs-toggle" aria-label="mobile menu toggle">
+        <span class="cs-box" aria-hidden="true">
+          <span class="cs-line cs-line1" aria-hidden="true"></span>
+          <span class="cs-line cs-line2" aria-hidden="true"></span>
+          <span class="cs-line cs-line3" aria-hidden="true"></span>
+        </span>
+      </button>
+
+      <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long -->
+      <div class="cs-ul-wrapper">
+        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+          <li class="cs-li">
+            <a href="" class="cs-li-link cs-active">Home</a>
+          </li>
+          <li class="cs-li">
+            <a href="" class="cs-li-link">Our products</a>
+          </li>
+          <li class="cs-li">
+            <a href="" class="cs-li-link">Services</a>
+          </li>
+          <li class="cs-li">
+            <a href="" class="cs-li-link">About Us</a>
+          </li>
+          <li class="cs-li">
+            <a href="" class="cs-li-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
 </header>
+
+
  <!-- ============================================ -->
 <!--                     CTA                      -->
 <!-- ============================================ -->
-</header>
 
 <section id="cta-1394">
     <div class="cs-container">
@@ -117,11 +112,11 @@
             <li class="cs-item">
               <picture class="cs-background">
                
-                 <source media="(max-width: 600px)" srcset="./images/big/cakes1.png">
+                 <source media="(max-width: 600px)" srcset="./images/cakes1.png">
                  
-                  <source media="(min-width: 601px)" srcset="./images/big/cakes1.png">
+                  <source media="(min-width: 601px)" srcset="./images/cakes1.png">
                   <img loading="lazy" decoding="async"
-                  src=".big/images/"
+                  src=".images/"
                   alt="Cake promotion"
                   width="630" height="354">
                 </picture>
@@ -135,13 +130,18 @@
             <li class="cs-item">
               <picture class="cs-background">
                 
-                 <source media="(max-width: 600px)" srcset="./images/big/cakes2.png">
+                 <source media="(max-width: 600px)" srcset="./images/cakes2.png">
                  
-                  <source media="(min-width: 601px)" srcset="./images/big/cakes2.png">
-                  <img loading="lazy" decoding="async"
-                  src=".big/images/"
-                  alt="Cake promotion"
-                  width="630" height="354">
+                  <source media="(min-width: 601px)" srcset="./images/cakes2.png">
+                <img
+                src="./images/cake-promotion.jpg"
+                alt="Cake promotion"
+                loading="lazy"
+                decoding="async"
+                 width="630"
+                 height="354">
+
+
                 </picture>
                 <div class="cs-content">
                   <span class="cs-tag">New Year's Benefits</span>
@@ -159,22 +159,23 @@
 <section id="gallery-1152">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">try our suggestions</span>
+            <span class="cs-topper">Try our suggestions</span>
             <h2 class="cs-title">Trending Products</h2>
         </div>
-        
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
  
         <div class="cs-gallery">
             <!--Picture 1-->
             <div class="cs-item">
               <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bircake1.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bircake1.png">
+            <source media="(max-width: 600px)" srcset="./images/bircake1.png">
+            <source media="(min-width: 601px)" srcset="./images/bircake1.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bircake1.png"
+            src="./images/bircake1.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -188,14 +189,14 @@
 
               <div class="cs-item">
               <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bircake3.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bircake3.png
+            <source media="(max-width: 600px)" srcset="./images/bircake3.png">
+            <source media="(min-width: 601px)" srcset="./images/bircake3.png
             ">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bircake3.png"
+            src="./images/bircake3.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -208,13 +209,13 @@
 
              <div class="cs-item">
                <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bircake4.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bircake4.png">
+            <source media="(max-width: 600px)" srcset="./images/bircake4.png">
+            <source media="(min-width: 601px)" srcset="./images/bircake4.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bircake4.png"
+            src="./images/bircake4.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -226,13 +227,13 @@
             <!--Picture 4-->
                 <div class="cs-item">
               <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bircake6.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bircake6.png">
+            <source media="(max-width: 600px)" srcset="./images/bircake6.png">
+            <source media="(min-width: 601px)" srcset="./images/bircake6.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bircake6.png"
+            src="./images/bircake6.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -245,13 +246,13 @@
                <!--Picture 5-->  
                <div class="cs-item">
                <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bircake2.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bircake2.png">
+            <source media="(max-width: 600px)" srcset="./images/bircake2.png">
+            <source media="(min-width: 601px)" srcset="./images/bircake2.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bircake2.png"
+            src="./images/bircake2.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -264,13 +265,13 @@
               <!--Picture 6-->
              <div class="cs-item">
               <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/wedcake1.png">
-            <source media="(min-width: 601px)" srcset="./images/big/wedcake1.png">
+            <source media="(max-width: 600px)" srcset="./images/wedcake1.png">
+            <source media="(min-width: 601px)" srcset="./images/wedcake1.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/wedcake1.png"
+            src="./images/wedcake1.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -281,13 +282,13 @@
               <!--Picture 6-->
             <div class="cs-item">
               <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="./images/big/bricake5.png">
-            <source media="(min-width: 601px)" srcset="./images/big/bricake5.png">
+            <source media="(max-width: 600px)" srcset="./images/bricake5.png">
+            <source media="(min-width: 601px)" srcset="./images/bricake5.png">
             <img
             class="js-preview"
             loading="lazy"
             decoding="async"
-            src="./images/big/bricake5.png"
+            src="./images/bricake5.png"
             alt="Cake promotion"
             width="272"
             height="320">
@@ -298,10 +299,10 @@
               <!--Picture 7-->
            <div class="cs-item">
               <picture class="cs-background">
-                <source media="(max-width: 600px)" srcset="./images/big/wedcake2.png">
-                 <source media="(min-width: 601px)" srcset="./images/big/wedcake2.png">
+                <source media="(max-width: 600px)" srcset="./images/wedcake2.png">
+                 <source media="(min-width: 601px)" srcset="./images/wedcake2.png">
                   <img class="js-preview" loading="lazy" decoding="async"
-                   src="./images/big/wedcake2.png"
+                   src="./images/wedcake2.png"
                    alt="Cake promotion" width="272" height="320">
                   </picture>
                   <p class="cs-product-name">Baby's breath cakee</p>
@@ -334,7 +335,7 @@
 
         <li class="cs-item">
           <a href="#" class="cs-link">
-            <img src="./images/big/cakepake1.png" alt="pack cake">
+            <img src="./images/cakepake1.png" alt="pack cake">
             <h3 class="cs-title">Mini cake bundle</h3>
             <p class="cs-item-text">Pair two 4-inch cakes with different themes.</p>
             <span class="cs-button-solid cs-price">$75.00</span>
@@ -343,7 +344,7 @@
 
         <li class="cs-item">
           <a href="#" class="cs-link">
-            <img src="./images/big/cakepack2.png" alt="pack cake">
+            <img src="./images/cakepack2.png" alt="pack cake">
             <h3 class="cs-title">Cookie Bundle</h3>
             <p class="cs-item-text">Four cupcake combinations.</p>
             <span class="cs-button-solid cs-price">$48.00</span>
@@ -352,7 +353,7 @@
 
         <li class="cs-item">
           <a href="#" class="cs-link">
-            <img src="./images/big/cakepack3.png" alt="pack cake">
+            <img src="./images/cakepack3.png" alt="pack cake">
             <h3 class="cs-title">Cupcake Bundle</h3>
             <p class="cs-item-text">Any four cupcake combinations.</p>
             <span class="cs-button-solid cs-price">$52.00</span>
@@ -361,7 +362,7 @@
 
         <li class="cs-item">
           <a href="#" class="cs-link">
-            <img src="./images/big/cakepack4.png" alt="pack cake">
+            <img src="./images/cakepack4.png" alt="pack cake">
             <h3 class="cs-title">Slice cake Bundle</h3>
             <p class="cs-item-text">Choose from 3 types of sliced cakes.</p>
             <span class="cs-button-solid cs-price">$45.00</span>
@@ -427,7 +428,7 @@
         <div class="cs-logo-group">
             <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async"
-                     src="./images/big/footer.png"
+                     src="./images/footer.png"
                      alt="logo" width="260" height="38">
             </a>
 
@@ -443,7 +444,8 @@
                 <span class="cs-header">Contact</span>
             </li>
             <li class="cs-nav-li">
-                <a class="cs-nav-link" href="tel:123-456 7890">(123) 487 4567</a>
+               <a class="cs-nav-link" href="tel:1234567890">(123)</a>
+
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="mailto:info@OrchardCakehouse.com">
